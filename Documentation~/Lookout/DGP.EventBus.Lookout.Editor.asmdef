@@ -1,0 +1,21 @@
+{
+    "name": "DGP.EventBus.Lookout.Editor",
+    "rootNamespace": "DGP.EventBus.Lookout",
+    "references": [
+        "EventBus.Bridges",
+        "VoidCat.Lookout.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "!LOOKOUT_DISABLED"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
