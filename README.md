@@ -211,3 +211,9 @@ await EventBus<EffectEvent>.RaiseConcurrentAsync(effectEvent);
 - UniTask package (optional, for async support)
 
 To enable UniTask support, add `UNITASK_SUPPORT` to your project's Scripting Define Symbols.
+
+## Lookout
+
+To see this package's events in Lookout (VoidCat Studios' event-graph tool for Unity), follow
+[Documentation~/Lookout.md](Documentation~/Lookout.md). It covers the settings, live pulses and what Lookout can't see
+yet; the files it uses are in `Documentation~/Lookout/`.
